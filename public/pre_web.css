@@ -1,0 +1,228 @@
+/* Screen division in body */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(66,69,86);
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1491002052546-bf38f186af56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=783&q=80');
+    background-size: cover;
+    font-weight: 100;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Main column */
+.main {
+    flex: 70%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */
+}
+
+/* Style the header */
+.header {
+    padding: 75px; /* some padding */
+    text-align: center; /* center the text */
+    text-shadow: 2px 2px black;
+    background-image: url("https://images2.alphacoders.com/153/thumb-1920-153270.jpg"); /* green background */
+    color: white; /* white text color */
+}
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Column container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    size: 50px;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+
+.form {
+    line-height: 1.5;
+    border: none;
+    border-bottom: 3px solid #ebebeb;
+    margin-top: 100px;
+    width: 700px;
+    font-size: 2.9em;
+    color: white;
+    padding: 5px 10px;
+    background: transparent;
+}
+
+button {
+    line-height: 2.0;
+    border:3px solid rgba(97, 97, 97, 0);
+    font-size: 1.9em;
+    color: rgb(248, 171, 0);
+    padding: 5px 30px;
+    background: rgba(255, 255, 255, 0.36);
+    border-radius: 8px;
+    opacity: 8;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgba(255,255,255,0.8);
+}
+input[type=text]:focus {
+    outline: none;
+    border-style: hidden;
+    color: red;
+}
+
+button:hover{
+    opacity: 1;
+    color: yellowgreen;
+
+}
+
+::placeholder {
+    color: grey;
+    opacity: 1; /* Firefox */
+}
+
+.footer {
+    padding: 1px; /* Some padding */
+    text-align: center; /* Center text*/
+    background: #ddd; /* Grey background */
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-yahoo {
+    background: #430297;
+    color: white;
+}
+
+
+p {
+    margin: 0;
+    font-size: 50px;
+    color: black;
+    text-shadow: 2px 2px deepskyblue;
+}
+
+p.header_style {
+    font-size: 2.5cm;
+    text-align: right;
+}
+
+p.header_style2 {
+    font-size: 1cm;
+    color: white;
+    text-align: right;
+}
+
+p.class_1 {
+    margin: 0;
+    font-size: 30px;
+    color: black;
+    text-shadow: none ;
+}
+
+h2.class_1 {
+    font-size: 1cm;
+}
+
+h2.class_2 {
+    font-size: 2cm;
+    line-height: 0;
+    color: #2196F3;
+    text-shadow: 2px 2px 5px black;
+}
+
+h3.class_1 {
+    font-size: 0.8cm;
+}

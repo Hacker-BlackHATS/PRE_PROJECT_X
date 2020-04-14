@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>
+            KAGE::HOME
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="pre_web.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+
+        <!--HEADER-->
+        <div class="header">
+            <b><p class="header_style"> EDU-WEB</p></b><br>
+            <p class="header_style2">Ocean of Knowledge...</p>
+        </div>
+
+        <!--NAVIGATION BAR-->
+        <div class="navbar">
+            <a href="/">Home</a>
+            <a href="/courses" >Courses</a>
+            <a href="/contact_us" class="right">Contact Us</a>
+        </div>
+
+        <div class="row">
+            <div class="side">
+                <b><h2 class="class_1">About Us :</h2></b>
+                <p class="class_1">We are the legion. We provide a better way of learning.
+                    We believe in Quality, rather than quantity of knowledge.</p>
+            </div>
+            <div class="flex-container">
+                <div class="container">
+
+                    <h2 class="class_2">JOIN US</h2>
+
+                    <p class="class_1">
+                        <b>Enter your Email-Id to join <strong><%=data%></strong> others on our wait list.
+                            <br>We are 100% not a cult.</b>
+                    </p>
+
+                    <form method="POST" action='/register'>
+                        <input type="text" class="form" name="email" placeholder="Enter Your Email">
+                        <button>Join Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+            <a href="https://in.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa fa-pinterest"></i></a>
+            <h3>
+                Powered by <a href="https://www.dancing_wizard.wiz" target="_blank">THE DANCING WIZARD</a>
+            </h3>
+        </div>
+    </body>
+</html>
